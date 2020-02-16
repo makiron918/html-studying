@@ -255,3 +255,34 @@ span.wordpress {
 span.webmarketing {
     background-color: #acd598;
 }
+
+/* ========================================
+    レフト
+========================================= */
+
+div#top_left {
+    width: 280px;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+}
+
+div#top_category {
+    width: 240px;
+    height: auto;
+    background-color: #fff;
+    padding: 10px;
+    border: 10px solid #dcdddf;
+}
+
+/* ========================================
+    ライト
+========================================= */
+
+div#top_right {
+    width: 650px;
+    height: 650px;
+    background-color: yellow;
+    float: right;
+    margin-top: 30px;
+}
