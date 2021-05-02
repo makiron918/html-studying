@@ -53,7 +53,7 @@ a:focus {outline:none;}
 }
 
 .cp_menu {
-	max-width: 360px;
+	max-width: 500px;
 	margin: 0 auto;
 	padding: 10px;
 }
@@ -97,7 +97,8 @@ a:focus {outline:none;}
 }
 /*リストが増えたらULごとに追加してください*/
 #cp_menu_bar1:checked ~ #link1 li,
-#cp_menu_bar2:checked ~ #link2 li {
-	max-height: 300px;
+#cp_menu_bar2:checked ~ #link2 li,
+#cp_menu_bar3:checked ~ #link3 li {
+	max-height: 400px;
 	opacity: 1;
 }
