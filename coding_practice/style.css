@@ -98,7 +98,9 @@ a:focus {outline:none;}
 /*リストが増えたらULごとに追加してください*/
 #cp_menu_bar1:checked ~ #link1 li,
 #cp_menu_bar2:checked ~ #link2 li,
-#cp_menu_bar3:checked ~ #link3 li {
+#cp_menu_bar3:checked ~ #link3 li,
+#cp_menu_bar4:checked ~ #link4 li,
+#cp_menu_bar5:checked ~ #link5 li {
 	max-height: 400px;
 	opacity: 1;
 }
